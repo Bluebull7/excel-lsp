@@ -1,0 +1,5 @@
+pygls
+xlwings
+textblob
+transformers
+torch        # if you're using BERT, you'll need PyTorch
