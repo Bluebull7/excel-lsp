@@ -16,7 +16,7 @@ logger.add("logs/server.log", rotation="1 MB", level="INFO")
 
 class ExcelWordCompletionServer(LanguageServer):
     def __init__(self):
-        super().__init__()
+        super().__init__(name="ExcelWordCompletionServer", version="1.0.0")
         
         try:
             self.nlp_module = NLPModule()
